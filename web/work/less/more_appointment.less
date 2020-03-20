@@ -1,0 +1,229 @@
+//定义变量
+@baseColor:#ff9900;
+
+body{
+  background:  #b9def0;
+  background-size: cover;
+}
+
+.navbar{
+  margin-bottom: 0;
+}
+.sports_inform{
+  margin-top: 150px;
+  .yy_inform{
+    width: 40%;
+    display: inline-block;
+    margin: 3% 4%;
+    transition: all 0.5s;
+    position: relative;
+    &:hover{
+      box-shadow: 0 0 20px 1px #999;
+      border-radius: 4px;
+      color: #ffffff;
+    }
+    .list-group-item {
+      background: @baseColor;
+      border-color: @baseColor;
+      color: #ffffff;
+      span{
+        color: #ffffff;
+        margin: 8px 5%;
+        padding: 0 1%;
+        display: inline-block;
+        border: 1px solid #ffffff;
+        font-size: 1.2em;
+        &:nth-child(2){
+          float: right;
+        }
+        &:nth-child(4){
+          float: right;
+        }
+      }
+      .btn-span{
+        display: inline-block;
+        font-size: 1.2em;
+        font-weight: bold;
+        text-align: center;
+        width: 50px;
+        color: #ffffff;
+        &:hover{
+          background: #ffffff;
+          a{
+            color: @baseColor;
+          }
+        }
+        a{
+          color: #ffffff;
+          &:hover{
+            text-decoration: none;
+            color: @baseColor;
+          }
+        }
+      }
+      .btn-a{
+        float: right;
+      }
+      .span-over{
+        margin-left: 320px;
+        display: inline-block;
+        font-size: 1.2em;
+        font-weight: bold;
+        text-align: center;
+        width: 70px;
+      }
+      .btn_source{
+        width: 50%;
+        margin: 8px 28%;
+        padding: 10px 3%;
+        font-weight: bold;
+        border: 2px solid #ffffff;
+        background: @baseColor;
+        color: #ffffff;
+        &:hover{
+          background: @baseColor;
+        }
+      }
+      h4{
+        text-align: center;
+        padding: 3% 0;
+        font-size: 2em;
+        border: 2px solid #ffffff;
+      }
+      p{
+        border: 2px solid #ffffff;
+        font-size: 1.2em;
+        line-height: 2em;
+        margin: 5% 0;
+        padding: 0 2%;
+      }
+      .sports_p{
+        color: #ffffff;
+        &:hover{
+          color: #ffffff;
+        }
+      }
+      button{
+        width: 100%;
+        color: @baseColor;
+        font-size: 1.3em;
+        font-weight: bold;
+        &:hover{
+          background: #ffffff;
+        }
+        &:visited{
+          background: #ffffff;
+        }
+      }
+    }
+  }
+}
+
+.sports_nav{
+  margin: 0 auto;
+  .pagination{
+    margin: 0 auto;
+    display: inline;
+    .active{
+      background: @baseColor;
+    }
+    li{
+      a{
+        margin: 2% 1%;
+        border-radius: 50%;
+      }
+      .nav_a{
+        background: @baseColor;
+        border: 1px solid @baseColor;
+        &:hover{
+          border: 1px solid #ffffff;
+          cursor: pointer;
+        }
+      }
+      .nav_now{
+        background-color:transparent;
+        border: 1px solid #ffffff;
+
+      }
+      .nav_\.\.\.{
+        background: @baseColor;
+        border: 1px solid @baseColor;
+      }
+      .fir_a{
+        margin-left: 35%;
+      }
+    }
+  }
+}
+.sports_search{
+  height: 100px;
+  background: #ffffff;
+  position:fixed;
+  width: 100%;
+  z-index: 5;
+  .container{
+    width: 60%;
+    position: relative;
+    .sports_logo{
+      position: absolute;
+      left: -88px;
+      top: 10px;
+      background: url("../images/2.png");
+      background-size: cover;
+      display: inline-block;
+      width: 70px;
+      height: 70px;
+    }
+    .form-group{
+      margin-left: 20%;
+      input{
+        width: 60%;
+        height: 40px;
+        border-bottom-left-radius: 2em;
+        border-top-left-radius: 2em;
+        border: 2px solid @baseColor;
+        margin-top: 4%;
+        display: inline-block;
+      }
+    }
+    .sports_btn{
+      display: inline-block;
+      margin-left: -5px;
+      height: 40px;
+      width: 8%;
+      border-bottom-right-radius: 2em;
+      border-top-right-radius: 2em;
+      background: @baseColor;
+      border: 3px solid @baseColor;
+      font-size: 1.2em;
+      font-weight: bold;
+      color: #ffffff;
+      &:hover{
+        cursor: pointer;
+      }
+      &:active{
+        border-bottom-right-radius: 2em;
+        border-top-right-radius: 2em;
+      }
+    }
+    .sports_create{
+      position: absolute;
+      right: 40px;
+      top: 21px;
+      width: 15%;
+      height: 50px;
+      display: inline-block;
+      background: @baseColor;
+      border-radius: 2em;
+      border: 2px solid #ffffff;
+      color: #ffffff;
+      font-weight: bold;
+      font-size: 1.5em;
+      text-align: center;
+      line-height: 45px;
+      &:hover{
+        text-decoration: none;
+      }
+    }
+  }
+}

@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="222641c5-d1c2-464e-87ae-d3986caaafb9" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1YwHdUlEI6N8H1CJKyEYHFld1Lb" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="NewWatcherDialog.advanced.open" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="watcher.settings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\前端练习\柚约" />
+      <recent name="F:\前端练习\柚约\less" />
+    </key>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="222641c5-d1c2-464e-87ae-d3986caaafb9" name="Default Changelist" comment="" />
+      <created>1568804857310</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1568804857310</updated>
+      <workItem from="1568804859632" duration="924000" />
+      <workItem from="1568882953260" duration="38000" />
+      <workItem from="1569137718884" duration="1071000" />
+      <workItem from="1569296359900" duration="2675000" />
+      <workItem from="1569464530876" duration="120000" />
+      <workItem from="1569472801130" duration="643000" />
+      <workItem from="1569833337437" duration="1145000" />
+      <workItem from="1569834510264" duration="17644000" />
+      <workItem from="1569980165530" duration="6227000" />
+      <workItem from="1570080359467" duration="8925000" />
+      <workItem from="1570252632709" duration="34522000" />
+      <workItem from="1570356246087" duration="1259000" />
+      <workItem from="1570417123684" duration="34000" />
+      <workItem from="1570447029169" duration="687000" />
+      <workItem from="1570693397829" duration="2943000" />
+      <workItem from="1570698734425" duration="3220000" />
+      <workItem from="1570712451047" duration="795000" />
+      <workItem from="1570796753041" duration="2600000" />
+      <workItem from="1570943872377" duration="5253000" />
+      <workItem from="1570953884537" duration="172000" />
+      <workItem from="1571053335002" duration="879000" />
+      <workItem from="1572837540818" duration="599000" />
+      <workItem from="1573115172994" duration="111000" />
+      <workItem from="1573210210020" duration="519000" />
+      <workItem from="1575168700844" duration="218000" />
+      <workItem from="1583846824616" duration="910000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

@@ -1,0 +1,192 @@
+body {
+  background: url("../images/sports2.png") no-repeat;
+  background-size: cover;
+}
+.navbar {
+  margin-bottom: 0;
+}
+.sports_inform {
+  margin-top: 150px;
+}
+.sports_inform .yy_inform {
+  width: 40%;
+  display: inline-block;
+  margin: 3% 4%;
+  transition: all 0.5s;
+  position: relative;
+}
+.sports_inform .yy_inform:hover {
+  box-shadow: 0 0 20px 1px #999;
+  border-radius: 4px;
+  color: #ffffff;
+}
+.sports_inform .yy_inform .list-group-item {
+  background: #ff9900;
+  border-color: #ff9900;
+}
+.sports_inform .yy_inform .list-group-item:hover {
+  background: #ff9900;
+  border-color: #ff9900;
+}
+.sports_inform .yy_inform .list-group-item:visited {
+  background: #ff9900;
+  border-color: #ff9900;
+}
+.sports_inform .yy_inform .list-group-item span {
+  margin: 8px 5%;
+  padding: 0 1%;
+  display: inline-block;
+  border: 1px solid #ffffff;
+  font-size: 1.2em;
+}
+.sports_inform .yy_inform .list-group-item span:nth-child(2) {
+  float: right;
+}
+.sports_inform .yy_inform .list-group-item span:nth-child(4) {
+  float: right;
+}
+.sports_inform .yy_inform .list-group-item .btn_source {
+  width: 50%;
+  margin: 8px 28%;
+  padding: 10px 3%;
+  font-weight: bold;
+  border: 2px solid #ffffff;
+  background: #ff9900;
+  color: #ffffff;
+}
+.sports_inform .yy_inform .list-group-item .btn_source:hover {
+  background: #ff9900;
+}
+.sports_inform .yy_inform .list-group-item h4 {
+  text-align: center;
+  padding: 3% 0;
+  font-size: 2em;
+  border: 2px solid #ffffff;
+}
+.sports_inform .yy_inform .list-group-item p {
+  border: 2px solid #ffffff;
+  font-size: 1.2em;
+  line-height: 2em;
+  margin: 5% 0;
+  padding: 0 2%;
+}
+.sports_inform .yy_inform .list-group-item .sports_p {
+  color: #ffffff;
+}
+.sports_inform .yy_inform .list-group-item .sports_p:hover {
+  color: #ffffff;
+}
+.sports_inform .yy_inform .list-group-item button {
+  width: 100%;
+  color: #ff9900;
+  font-size: 1.3em;
+  font-weight: bold;
+}
+.sports_inform .yy_inform .list-group-item button:hover {
+  background: #ffffff;
+}
+.sports_inform .yy_inform .list-group-item button:visited {
+  background: #ffffff;
+}
+.sports_nav {
+  margin: 0 auto;
+}
+.sports_nav .pagination {
+  margin: 0 auto;
+  display: inline;
+}
+.sports_nav .pagination .active {
+  background: #ff9900;
+}
+.sports_nav .pagination li a {
+  margin: 2% 1%;
+  border-radius: 50%;
+}
+.sports_nav .pagination li .nav_a {
+  background: #ff9900;
+  border: 1px solid #ff9900;
+}
+.sports_nav .pagination li .nav_a:hover {
+  border: 1px solid #ffffff;
+  cursor: pointer;
+}
+.sports_nav .pagination li .nav_now {
+  background-color: transparent;
+  border: 1px solid #ffffff;
+}
+.sports_nav .pagination li .nav_\.\.\. {
+  background: #ff9900;
+  border: 1px solid #ff9900;
+}
+.sports_nav .pagination li .fir_a {
+  margin-left: 35%;
+}
+.sports_search {
+  height: 100px;
+  background: #ffffff;
+  position: fixed;
+  width: 100%;
+  z-index: 5;
+}
+.sports_search .container {
+  width: 60%;
+  position: relative;
+}
+.sports_search .container .sports_logo {
+  position: absolute;
+  left: -88px;
+  top: 10px;
+  background: url("../images/2.png");
+  background-size: cover;
+  display: inline-block;
+  width: 70px;
+  height: 70px;
+}
+.sports_search .container .form-group input {
+  width: 60%;
+  height: 40px;
+  border-bottom-left-radius: 2em;
+  border-top-left-radius: 2em;
+  border: 2px solid #ff9900;
+  margin-top: 3%;
+  display: inline-block;
+}
+.sports_search .container .sports_btn {
+  display: inline-block;
+  margin-left: -5px;
+  height: 40px;
+  width: 8%;
+  border-bottom-right-radius: 2em;
+  border-top-right-radius: 2em;
+  background: #ff9900;
+  border: 3px solid #ff9900;
+  font-size: 1.2em;
+  font-weight: bold;
+  color: #ffffff;
+}
+.sports_search .container .sports_btn:hover {
+  cursor: pointer;
+}
+.sports_search .container .sports_btn:active {
+  border-bottom-right-radius: 2em;
+  border-top-right-radius: 2em;
+}
+.sports_search .container .sports_create {
+  position: absolute;
+  right: 40px;
+  top: 21px;
+  width: 15%;
+  height: 50px;
+  display: inline-block;
+  background: #ff9900;
+  border-radius: 2em;
+  border: 2px solid #ffffff;
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 1.5em;
+  text-align: center;
+  line-height: 45px;
+}
+.sports_search .container .sports_create:hover {
+  text-decoration: none;
+}

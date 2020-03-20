@@ -1,0 +1,209 @@
+.yy_nav {
+  margin-bottom: 0;
+}
+ul {
+  list-style: none;
+}
+.my_index {
+  height: 650px;
+  background: #e7e7e7;
+}
+.my_index .index {
+  padding-top: 15px;
+}
+.my_index .index .left_box {
+  display: inline-block;
+  width: 25%;
+  height: 100%;
+  margin-left: -55px;
+}
+.my_index .index .left_box .my_ul li .active {
+  background: #ff9900;
+  color: #ffffff;
+}
+.my_index .index .left_box .my_ul li .active:hover {
+  background: #ff9900;
+  color: #ffffff;
+}
+.my_index .index .left_box .my_ul li a {
+  display: inline-block;
+  width: 100%;
+  height: 20%;
+  padding: 3% 10%;
+  font-size: 1.2em;
+  color: #000000;
+  text-decoration: none;
+  background: #ffffff;
+}
+.my_index .index .left_box .my_ul li a:hover {
+  text-decoration: none;
+  background: rgba(255, 153, 0, 0.4);
+}
+.my_index .index .right_box {
+  float: right;
+  width: 907px;
+  height: 620px;
+  background: #ffffff;
+  padding: 0 30px;
+}
+.my_index .index .right_box .cont {
+  overflow: hidden;
+  display: none;
+}
+.my_index .index .right_box .inform h3 {
+  height: 80px;
+  padding: 20px 0;
+  display: block;
+  border-bottom: 1px solid #e7e7e7;
+  font-weight: bold;
+}
+.my_index .index .right_box .inform .main {
+  margin-top: 20px;
+}
+.my_index .index .right_box .inform .main .inform_left {
+  float: left;
+  width: 125px;
+  height: 125px;
+  background: url("../images/normal.png") no-repeat;
+  border-radius: 50%;
+}
+.my_index .index .right_box .inform .main .inform_right {
+  float: right;
+  width: 80%;
+}
+.my_index .index .right_box .inform .main .inform_right .nick {
+  padding-bottom: 15px;
+  border-bottom: 1px solid #e7e7e7;
+}
+.my_index .index .right_box .inform .main .inform_right .nick span {
+  font-size: 1.2em;
+}
+.my_index .index .right_box .inform .main .inform_right .nick span a {
+  color: #ff9900;
+}
+.my_index .index .right_box .inform .main .inform_right .nick .mod {
+  float: right;
+}
+.my_index .index .right_box .inform .main .inform_right .self {
+  margin-left: -40px;
+  font-size: 1.2em;
+}
+.my_index .index .right_box .inform .main .inform_right .self li {
+  padding: 5px 0;
+}
+.my_index .index .right_box .inform .main .inform_right .self li:first-child {
+  padding-top: 15px;
+}
+.my_index .index .right_box .inform .main .inform_right .self li:last-child {
+  padding-bottom: 15px;
+}
+.my_index .index .right_box .inform .main .inform_right .inform_warm {
+  padding-top: 5px;
+  height: 30px;
+  background: #e7e7e7;
+  border: 1px solid #e7e7e7;
+  color: #ff9900;
+}
+.my_index .index .right_box .inform .main .inform_right .inform_warm .warming {
+  width: 20px;
+  height: 20px;
+  display: inline-block;
+  color: #e7e7e7;
+  text-align: center;
+  background: #ff9900;
+  border-radius: 50px;
+  margin-right: 5px;
+}
+.my_index .index .right_box .inform .main .inform_right .inform_warm button {
+  color: #ff9900;
+  opacity: 0.7;
+}
+.my_index .index .right_box .inform .main .inform_right .inform_warm button:hover {
+  opacity: 1;
+}
+.my_index .index .right_box .appoint h3 {
+  height: 60px;
+  padding: 10px 0;
+  display: block;
+  border-bottom: 1px solid #e7e7e7;
+  font-weight: bold;
+}
+.my_index .index .right_box .appoint .main_create {
+  position: relative;
+  padding-top: 10px;
+  width: 100%;
+  height: 125px;
+}
+.my_index .index .right_box .appoint .main_create ul {
+  margin-left: -50px;
+  height: 125px;
+}
+.my_index .index .right_box .appoint .main_create ul li {
+  float: left;
+  height: 190px;
+  width: 45%;
+  margin: 7px 5px;
+  border: 1px solid #ff9900;
+  background: #ff9900;
+}
+.my_index .index .right_box .appoint .main_create ul li span {
+  color: #ffffff;
+  font-size: 1.2em;
+  padding: 10px 15px;
+  line-height: 27px;
+  display: inline-block;
+  height: 27px;
+}
+.my_index .index .right_box .appoint .main_create ul li span:nth-child(2) {
+  float: right;
+}
+.my_index .index .right_box .appoint .main_create ul li span:nth-child(4) {
+  float: right;
+}
+.my_index .index .right_box .appoint .main_create ul li span:nth-child(6) {
+  width: 300px;
+}
+.my_index .index .right_box .appoint .main_create ul li span:nth-child(7) {
+  float: right;
+}
+.my_index .index .right_box .appoint .main_create ul li span a {
+  color: #ffffff;
+  font-size: 1.1em;
+  font-weight: bold;
+  width: 100px;
+  text-align: center;
+  display: inline-block;
+}
+.my_index .index .right_box .appoint .main_create ul .join {
+  height: 205px;
+}
+.my_index .index .right_box .appoint .main_create ul .join span:nth-child(7) {
+  width: 100%;
+  text-align: center;
+  font-weight: bold;
+}
+.my_index .index .right_box .appoint .main_create ul .join span:nth-child(8) {
+  float: left;
+}
+.my_index .index .right_box .appoint .main_create ul .join span:nth-child(9) {
+  float: right;
+}
+.my_index .index .right_box .appoint .main_create .more {
+  position: absolute;
+  bottom: -85px;
+  right: -3px;
+  color: #ff9900;
+  font-size: 1.1em;
+  font-weight: bold;
+}
+.my_index .index .right_box .appoint .main_create .join_more {
+  position: absolute;
+  top: 204px;
+  right: -3px;
+  color: #ff9900;
+  font-size: 1.1em;
+  font-weight: bold;
+}
+.my_index .index .right_box .appoint .sec_h {
+  margin-top: 90px;
+}

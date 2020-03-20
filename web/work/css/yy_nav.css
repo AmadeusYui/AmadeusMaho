@@ -1,0 +1,37 @@
+/*导航条*/
+.yy_nav > .container .collapse > .navbar-form > .btn {
+    height: 34px;
+    width: 34px;
+    background: url("../images/搜索.png") no-repeat;
+    background-size: cover;
+}
+.yy_nav > .container .collapse > .nav > li > a {
+    margin: 15px 0;
+    padding: 0 15px;
+    border-right: 1px #767676 solid;
+}
+.yy_nav > .container .collapse > .nav > li > a:hover {
+    color: #ff9900;
+}
+.yy_nav > .container .collapse > .nav > li > span {
+    width: 20px;
+    height: 20px;
+    background: url("../images/消息.png") no-repeat;
+}
+.yy_nav > .container .collapse > .nav > li > .fir {
+    color: #ff9900;
+}
+.yy_nav > .container .collapse > .nav > li > .last {
+    border: none;
+}
+.yy_nav > .container .collapse > .nav .dropdown > .dropdown-menu {
+    left: 0;
+    min-width: 100px;
+}
+.yy_nav > .container .collapse > .nav .dropdown > .dropdown-menu > li > a {
+    padding: 10px 10px;
+    color: #767676;
+}
+.yy_nav > .container > .navbar-header > .navbar-brand {
+    padding-top: 0;
+}
